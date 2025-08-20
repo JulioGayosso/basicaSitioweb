@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CompuDataWeb</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Logo CompuDataWeb" class="logo-img">
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Soluciones digitales a tu medida</h1>
+      <p>Páginas web, redes sociales, CCTV y más</p>
+      <a href="https://wa.me/529931576220 " target="_blank" class="btn">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- Slider -->
+  <section class="slider">
+    <div class="slides">
+      <div class="slide"><img src="images/slide34.png" alt="Páginas Web"></div>
+      <div class="slide"><img src="images/slide33.png" alt="Redes Sociales"></div>
+      <div class="slide"><img src="images/slide33.png" alt="CCTV"></div>
+      <div class="slide"><img src="images/slider4.jpg" alt="Soporte Técnico"></div>
+    </div>
+    <div class="navigation">
+      <div class="prev">&#10094;</div>
+      <div class="next">&#10095;</div>
+    </div>
+    <div class="dots"></div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="service-grid">
+      <div class="service"><i class="fas fa-globe"></i><h3>Páginas Web</h3><p>Diseño y desarrollo de sitios web modernos.</p></div>
+      <div class="service"><i class="fas fa-share-alt"></i><h3>Redes Sociales</h3><p>Manejo profesional de tus perfiles sociales.</p></div>
+      <div class="service"><i class="fas fa-video"></i><h3>CCTV</h3><p>Instalación y monitoreo de cámaras de seguridad.</p></div>
+      <div class="service"><i class="fas fa-laptop"></i><h3>Reparación de computadoras</h3><p>Mantenimiento y reparación confiable.</p></div>
+      <div class="service"><i class="fas fa-tools"></i><h3>Soporte Técnico</h3><p>Asistencia remota y presencial.</p></div>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Tu nombre" required>
+      <input type="email" id="email" placeholder="Tu correo" required>
+      <input type="tel" id="phone" placeholder="Tu teléfono" required>
+      <textarea id="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar por WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CompuDataWeb – Todos los derechos reservados.</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/profile.php?id=61555857389556" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/529931576220" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/529931576220" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+</body>
+</html>
