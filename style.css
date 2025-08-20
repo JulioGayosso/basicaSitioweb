@@ -292,8 +292,9 @@ footer .socials a {
     display: flex;
   }
   .nav-links li {
-    margin: 10px 0;
+    margin: 2px 0;
   }
+
   .slide img {
     max-height: 300px;
     object-fit: contain;
