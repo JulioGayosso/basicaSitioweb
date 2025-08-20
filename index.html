@@ -17,7 +17,9 @@
   <header>
     <nav class="navbar">
       <div class="logo">
-        <img src="images/logo.jpg" alt="Logo CompuDataWeb" class="logo-img">
+        <a href="index.html">
+    <img src="images/logo.jpg" alt="Logo CompuDataWeb" class="logo-img">
+  </a>
       </div>
       <div class="menu-toggle" id="menu-toggle">
         <i class="fas fa-bars"></i>
@@ -35,17 +37,18 @@
     <div class="hero-content">
       <h1>Soluciones digitales a tu medida</h1>
       <p>Páginas web, redes sociales, CCTV y más</p>
-      <a href="https://wa.me/529931576220 " target="_blank" class="btn">Contáctanos</a>
+      <a href="https://wa.me/529931576220" target="_blank" class="btn">Contáctanos</a>
     </div>
   </section>
 
   <!-- Slider -->
   <section class="slider">
     <div class="slides">
-      <div class="slide"><img src="images/slide34.png" alt="Páginas Web"></div>
-      <div class="slide"><img src="images/slide33.png" alt="Redes Sociales"></div>
-      <div class="slide"><img src="images/slide33.png" alt="CCTV"></div>
-      <div class="slide"><img src="images/slider4.jpg" alt="Soporte Técnico"></div>
+      <div class="slide fade"><img src="images/slide1.png" alt="Páginas Web"></div>
+      <div class="slide fade"><img src="images/slide33.png" alt="Redes Sociales"></div>
+      <div class="slide fade"><img src="images/slide3.png" alt="CCTV"></div>
+      <div class="slide fade"><img src="images/slide44.png" alt="Soporte Técnico"></div>
+      <div class="slide fade"><img src="images/slide55.png" alt="Soporte Técnico"></div>
     </div>
     <div class="navigation">
       <div class="prev">&#10094;</div>
@@ -72,9 +75,9 @@
     <form id="contact-form">
       <input type="text" id="name" placeholder="Tu nombre" required>
       <input type="email" id="email" placeholder="Tu correo" required>
-      <input type="tel" id="phone" placeholder="Tu teléfono" required>
+      <input type="tel" id="phone" placeholder="Tu teléfono" required pattern="[0-9]{7,15}">
       <textarea id="message" placeholder="Tu mensaje" required></textarea>
-      <button type="submit" class="btn">Enviar por WhatsApp</button>
+      <button type="submit" class="btn">Enviar</button>
     </form>
   </section>
 
